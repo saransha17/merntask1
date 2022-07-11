@@ -1,0 +1,42 @@
+<h2 style= "text-align: center">Hi, This is my first task in Mern.</h2> 
+
+<body>
+<form id="f1"> 
+
+Enter your name: <input style = "text-transform : capitalize"/>
+<br/>
+Course Name : <input style = "text-transform : uppercase"/>
+<br/>
+<button id = "b1" type = "submit" > Submit </button>
+<button id = "b1" type = "reset" > Reset </button>
+
+<br/>
+<br/>
+
+<marquee> <img id="m1" src="thankyou.png"/> </marquee>
+
+
+</form>
+
+</body>
+
+<style>
+
+body
+{
+background-image: url("mern_logo.png");
+background-repeat : no-repeat;
+background-position : 50% 100%;
+background-size: 40%;
+}
+
+img#m1{
+width: 20%;
+height: 15%;
+}
+
+<style/>
+
+
+
+
