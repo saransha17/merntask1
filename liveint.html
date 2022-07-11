@@ -1,0 +1,76 @@
+<script>
+
+
+function liveInterpreter()
+{
+liveDisplay = document.getElementById("d1");
+text = document.getElementById("t1");
+liveDisplay.innerHTML = text.value;
+}
+</script>
+
+<style>
+
+div#d2{
+border: double;
+background : rgb(137, 207,240);
+position : absolute;
+right: 57%;
+top:10px;
+width:40%;
+height: 50%;
+
+
+}
+
+div#d1{
+
+background: #FFFF99;
+border : 2px groove blue;
+font-size: 20px;
+font-weight:bolder;
+//text-indent : 2cm;
+color : red;
+text-shadow: 0px 0px 15px blue;
+position : absolute;
+left : 45%;
+top:10px;
+width : 50%;
+height : 50%;
+overflow : auto;
+}
+
+textarea#t1{
+position: absolute;
+left : 42%;
+top:5px;
+width: 55%;
+height : 95%;
+
+}
+
+body{
+background : #D3D3D3; 
+}
+
+span#s1{
+color : white;
+font-size: 24px;
+font-weight:bolder;
+
+}
+
+</style>
+
+<body>
+<div id = "d1"></div>
+
+<div id = "d2">
+
+<span id = "s1"> Enter the text/code : </span>
+
+<textarea id = "t1" onkeydown = "liveInterpreter()"></textarea>
+
+
+</div>
+</body>
